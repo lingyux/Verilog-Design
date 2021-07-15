@@ -1,0 +1,123 @@
+# Reading C:/altera/13.0sp1/modelsim_ae/tcl/vsim/pref.tcl 
+# do hdb3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/hdb3_plug_v.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hdb3_plug_v
+# 
+# Top level modules:
+# 	hdb3_plug_v
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/hdb3_plug_b.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hdb3_plug_b
+# 
+# Top level modules:
+# 	hdb3_plug_b
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/hdb3_d2t.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hdb3_d2t
+# 
+# Top level modules:
+# 	hdb3_d2t
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/hdb3_code.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hdb3_code
+# 
+# Top level modules:
+# 	hdb3_code
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/hdb3_decode.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hdb3_decode
+# 
+# Top level modules:
+# 	hdb3_decode
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/pluse.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pluse
+# 
+# Top level modules:
+# 	pluse
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/rtl {D:/01workplace/Quartus/class21_hdb3_tb/rtl/hdb3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hdb3
+# 
+# Top level modules:
+# 	hdb3
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/prj/output_files {D:/01workplace/Quartus/class21_hdb3_tb/prj/output_files/divider.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module divider
+# 
+# Top level modules:
+# 	divider
+# 
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/prj/../testbench {D:/01workplace/Quartus/class21_hdb3_tb/prj/../testbench/divider_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module divider_tb
+# 
+# Top level modules:
+# 	divider_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  divider_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps divider_tb 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.divider_tb
+# Loading work.divider
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+restart
+run
+run
+run
+quit -sim
+vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class21_hdb3_tb/prj/../testbench -O0 D:/01workplace/Quartus/class21_hdb3_tb/testbench/divider_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module divider_tb
+# 
+# Top level modules:
+# 	divider_tb
+vsim -voptargs=+acc work.divider_tb
+# vsim -voptargs=+acc work.divider_tb 
+# Loading work.divider_tb
+# Loading work.divider
+add wave -position insertpoint  \
+sim:/divider_tb/r_rst_n \
+sim:/divider_tb/r_clk \
+sim:/divider_tb/clk_1ms
+run
+# WARNING: No extended dataflow license exists
+# **** Error: SelectedSignalQ cmd: Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim
+# ****        can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+# can't read "vsimPriv(.main_pane.dataflow.interior.cs.body:grid)": no such element in array
+#     while executing
+# "set grid $vsimPriv($grid:grid)"
+#     (procedure "ginfo" line 10)
+#     invoked from within
+# "ginfo trees $w"
+#     (procedure "Wave::SelectSigCmd" line 8)
+#     invoked from within
+# "Wave::SelectSigCmd .main_pane.dataflow.interior.cs.body.pw.wf.top.tree sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "

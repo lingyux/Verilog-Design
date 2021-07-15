@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.695
+TNS   : -621.112
+
+Type  : Slow 1200mV 85C Model Setup 'HEX8:HEX8|clk_1k'
+Slack : -0.198
+TNS   : -0.774
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.196
+TNS   : -0.196
+
+Type  : Slow 1200mV 85C Model Hold 'HEX8:HEX8|clk_1k'
+Slack : 0.525
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -1.248
+TNS   : -39.936
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.584
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -525.447
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'HEX8:HEX8|clk_1k'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.351
+TNS   : -548.559
+
+Type  : Slow 1200mV 0C Model Setup 'HEX8:HEX8|clk_1k'
+Slack : -0.095
+TNS   : -0.284
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.171
+TNS   : -0.171
+
+Type  : Slow 1200mV 0C Model Hold 'HEX8:HEX8|clk_1k'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -1.077
+TNS   : -34.464
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 1.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -525.447
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'HEX8:HEX8|clk_1k'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.991
+TNS   : -105.817
+
+Type  : Fast 1200mV 0C Model Setup 'HEX8:HEX8|clk_1k'
+Slack : 0.501
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.250
+TNS   : -0.250
+
+Type  : Fast 1200mV 0C Model Hold 'HEX8:HEX8|clk_1k'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.682
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -336.888
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'HEX8:HEX8|clk_1k'
+Slack : -1.000
+TNS   : -6.000
+
+------------------------------------------------------------

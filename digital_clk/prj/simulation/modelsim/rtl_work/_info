@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\01workplace\Quartus\class24_digital_clk\prj\simulation\modelsim
+vring
+IjgG2=ZR@PElb?:ND<PJfI0
+V;LX1Bhff[F^jHSJjEnSSj0
+Z1 dD:\01workplace\Quartus\class24_digital_clk\prj\simulation\modelsim
+w1626081131
+8D:/01workplace/Quartus/class24_digital_clk/rtl/ring.v
+FD:/01workplace/Quartus/class24_digital_clk/rtl/ring.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 P4K^Wa4[^ooLn1J0a@^4M2
+!s85 0
+!s108 1626149711.551000
+!s107 D:/01workplace/Quartus/class24_digital_clk/rtl/ring.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class24_digital_clk/rtl|D:/01workplace/Quartus/class24_digital_clk/rtl/ring.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class24_digital_clk/rtl -O0
+vring_tb
+!i10b 1
+!s100 c<_>Hb@PY9fSY>TRTK[932
+I7K9fAfdnaD8L7;V_b[Wae2
+VQh?XA6HT:C2lO_bmzfNBe2
+R1
+w1626149668
+8D:/01workplace/Quartus/class24_digital_clk/prj/../testbench/ring_tb.v
+FD:/01workplace/Quartus/class24_digital_clk/prj/../testbench/ring_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1626149711.709000
+!s107 D:/01workplace/Quartus/class24_digital_clk/prj/../testbench/ring_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class24_digital_clk/prj/../testbench|D:/01workplace/Quartus/class24_digital_clk/prj/../testbench/ring_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class24_digital_clk/prj/../testbench -O0

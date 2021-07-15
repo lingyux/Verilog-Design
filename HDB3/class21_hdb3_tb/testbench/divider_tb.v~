@@ -1,0 +1,27 @@
+`timescale 1ns/1ns
+module divider_tb();
+
+	reg r_rst_n;
+	reg r_clk;
+	wire clk_1ms;
+
+	initial begin
+		r_rst_n = 1'b0;
+		#9 r_rst_n = 1'b1;
+	end
+
+	initial begin
+		r_clk = 1'b0;
+		forever
+		    #1 r_clk = ~r_clk;
+	end
+
+
+	defparam divider.T = 5;
+	divider divider(
+		.i_clk(r_clk),
+		.i_rst_n(r_rst_n),
+		.clk_1ms(clk_1ms)
+	);
+
+endmodule

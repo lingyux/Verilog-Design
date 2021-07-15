@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="digital_clk">
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock_top|ring:ring1|altshift_taps:data_in_cmp_tmp0_rtl_0" CBX_FILE_NAME="shift_taps_ckm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

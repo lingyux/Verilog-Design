@@ -1,0 +1,207 @@
+|hdb3
+i_clk => i_clk.IN1
+i_rst_n => i_rst_n.IN4
+hdb3_decode <= hdb3_decode:hdb3_decode1.o_data
+hdb3_code[0] <= hdb3_code[0].DB_MAX_OUTPUT_PORT_TYPE
+hdb3_code[1] <= hdb3_code[1].DB_MAX_OUTPUT_PORT_TYPE
+r_data <= r_data.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hdb3|divider:divider
+i_clk => clk_1ms~reg0.CLK
+i_clk => cnt[0].CLK
+i_clk => cnt[1].CLK
+i_clk => cnt[2].CLK
+i_clk => cnt[3].CLK
+i_clk => cnt[4].CLK
+i_clk => cnt[5].CLK
+i_clk => cnt[6].CLK
+i_clk => cnt[7].CLK
+i_clk => cnt[8].CLK
+i_clk => cnt[9].CLK
+i_clk => cnt[10].CLK
+i_clk => cnt[11].CLK
+i_clk => cnt[12].CLK
+i_clk => cnt[13].CLK
+i_clk => cnt[14].CLK
+i_clk => cnt[15].CLK
+i_clk => cnt[16].CLK
+i_rst_n => cnt[0].ACLR
+i_rst_n => cnt[1].ACLR
+i_rst_n => cnt[2].ACLR
+i_rst_n => cnt[3].ACLR
+i_rst_n => cnt[4].ACLR
+i_rst_n => cnt[5].ACLR
+i_rst_n => cnt[6].ACLR
+i_rst_n => cnt[7].ACLR
+i_rst_n => cnt[8].ACLR
+i_rst_n => cnt[9].ACLR
+i_rst_n => cnt[10].ACLR
+i_rst_n => cnt[11].ACLR
+i_rst_n => cnt[12].ACLR
+i_rst_n => cnt[13].ACLR
+i_rst_n => cnt[14].ACLR
+i_rst_n => cnt[15].ACLR
+i_rst_n => cnt[16].ACLR
+i_rst_n => clk_1ms~reg0.ACLR
+clk_1ms <= clk_1ms~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hdb3|pluse:pluse1
+i_clk => temp[0].CLK
+i_clk => temp[1].CLK
+i_clk => temp[2].CLK
+i_clk => temp[3].CLK
+i_clk => temp[4].CLK
+i_clk => temp[5].CLK
+i_clk => temp[6].CLK
+i_clk => temp[7].CLK
+i_clk => temp[8].CLK
+i_clk => temp[9].CLK
+i_clk => temp[10].CLK
+i_clk => temp[11].CLK
+i_clk => temp[12].CLK
+i_clk => temp[13].CLK
+i_clk => temp[14].CLK
+i_clk => temp[15].CLK
+i_rst_n => temp[0].ACLR
+i_rst_n => temp[1].PRESET
+i_rst_n => temp[2].PRESET
+i_rst_n => temp[3].PRESET
+i_rst_n => temp[4].ACLR
+i_rst_n => temp[5].ACLR
+i_rst_n => temp[6].ACLR
+i_rst_n => temp[7].ACLR
+i_rst_n => temp[8].ACLR
+i_rst_n => temp[9].ACLR
+i_rst_n => temp[10].ACLR
+i_rst_n => temp[11].ACLR
+i_rst_n => temp[12].PRESET
+i_rst_n => temp[13].PRESET
+i_rst_n => temp[14].PRESET
+i_rst_n => temp[15].PRESET
+o_pluse <= temp[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hdb3|hdb3_code:hdb3_code1
+i_rst_n => i_rst_n.IN3
+i_clk => i_clk.IN3
+i_data => i_data.IN1
+o_hdb3_code[0] <= hdb3_d2t:hdb3_d2t.o_hdb3_code
+o_hdb3_code[1] <= hdb3_d2t:hdb3_d2t.o_hdb3_code
+
+
+|hdb3|hdb3_code:hdb3_code1|hdb3_plug_v:hdb3_plug_v1
+i_rst_n => r_plug_v_code_l[0].ACLR
+i_rst_n => r_plug_v_code_l[1].ACLR
+i_rst_n => r_plug_v_code_l[2].ACLR
+i_rst_n => r_plug_v_code_l[3].ACLR
+i_rst_n => r_plug_v_code_h[0].ACLR
+i_rst_n => r_plug_v_code_h[1].ACLR
+i_rst_n => r_plug_v_code_h[2].ACLR
+i_rst_n => r_plug_v_code_h[3].ACLR
+i_rst_n => r_data_shift[0].PRESET
+i_rst_n => r_data_shift[1].PRESET
+i_rst_n => r_data_shift[2].PRESET
+i_clk => r_plug_v_code_l[0].CLK
+i_clk => r_plug_v_code_l[1].CLK
+i_clk => r_plug_v_code_l[2].CLK
+i_clk => r_plug_v_code_l[3].CLK
+i_clk => r_plug_v_code_h[0].CLK
+i_clk => r_plug_v_code_h[1].CLK
+i_clk => r_plug_v_code_h[2].CLK
+i_clk => r_plug_v_code_h[3].CLK
+i_clk => r_data_shift[0].CLK
+i_clk => r_data_shift[1].CLK
+i_clk => r_data_shift[2].CLK
+i_data => r_data_shift[0].DATAIN
+i_data => r_plug_v_code_l.DATAA
+i_data => always1.IN1
+o_plug_v_code[0] <= r_plug_v_code_l[3].DB_MAX_OUTPUT_PORT_TYPE
+o_plug_v_code[1] <= r_plug_v_code_h[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hdb3|hdb3_code:hdb3_code1|hdb3_plug_b:hdb3_plug_b1
+i_rst_n => r_plug_b_code_l[0].ACLR
+i_rst_n => r_plug_b_code_l[1].ACLR
+i_rst_n => r_plug_b_code_l[2].ACLR
+i_rst_n => r_plug_b_code_l[3].ACLR
+i_rst_n => r_plug_b_code_l[4].ACLR
+i_rst_n => r_plug_b_code_h[0].ACLR
+i_rst_n => r_plug_b_code_h[1].ACLR
+i_rst_n => r_plug_b_code_h[2].ACLR
+i_rst_n => r_plug_b_code_h[3].ACLR
+i_rst_n => r_plug_b_code_h[4].ACLR
+i_rst_n => r_not_0_parity.ACLR
+i_clk => r_plug_b_code_l[0].CLK
+i_clk => r_plug_b_code_l[1].CLK
+i_clk => r_plug_b_code_l[2].CLK
+i_clk => r_plug_b_code_l[3].CLK
+i_clk => r_plug_b_code_l[4].CLK
+i_clk => r_plug_b_code_h[0].CLK
+i_clk => r_plug_b_code_h[1].CLK
+i_clk => r_plug_b_code_h[2].CLK
+i_clk => r_plug_b_code_h[3].CLK
+i_clk => r_plug_b_code_h[4].CLK
+i_clk => r_not_0_parity.CLK
+i_plug_v_code[0] => Equal0.IN3
+i_plug_v_code[0] => Equal1.IN3
+i_plug_v_code[0] => r_plug_b_code_l.DATAA
+i_plug_v_code[1] => Equal0.IN2
+i_plug_v_code[1] => Equal1.IN2
+i_plug_v_code[1] => r_plug_b_code_h.DATAA
+o_plug_b_code[0] <= r_plug_b_code_l[4].DB_MAX_OUTPUT_PORT_TYPE
+o_plug_b_code[1] <= r_plug_b_code_h[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hdb3|hdb3_code:hdb3_code1|hdb3_d2t:hdb3_d2t
+i_rst_n => o_hdb3_code[0]~reg0.ACLR
+i_rst_n => o_hdb3_code[1]~reg0.ACLR
+i_rst_n => r_not_0_parity.ACLR
+i_clk => o_hdb3_code[0]~reg0.CLK
+i_clk => o_hdb3_code[1]~reg0.CLK
+i_clk => r_not_0_parity.CLK
+i_plug_b_code[0] => Equal0.IN3
+i_plug_b_code[0] => Equal1.IN3
+i_plug_b_code[0] => Equal2.IN3
+i_plug_b_code[1] => Equal0.IN2
+i_plug_b_code[1] => Equal1.IN2
+i_plug_b_code[1] => Equal2.IN2
+o_hdb3_code[0] <= o_hdb3_code[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_hdb3_code[1] <= o_hdb3_code[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hdb3|hdb3_decode:hdb3_decode1
+i_rst_n => r_hdb3_minus[0].ACLR
+i_rst_n => r_hdb3_minus[1].ACLR
+i_rst_n => r_hdb3_minus[2].ACLR
+i_rst_n => r_hdb3_minus[3].ACLR
+i_rst_n => r_hdb3_minus[4].ACLR
+i_rst_n => r_hdb3_plus[0].ACLR
+i_rst_n => r_hdb3_plus[1].ACLR
+i_rst_n => r_hdb3_plus[2].ACLR
+i_rst_n => r_hdb3_plus[3].ACLR
+i_rst_n => r_hdb3_plus[4].ACLR
+i_rst_n => temp1_code[0].ACLR
+i_rst_n => temp1_code[1].ACLR
+i_rst_n => temp0_code[0].ACLR
+i_rst_n => temp0_code[1].ACLR
+i_clk => r_hdb3_minus[0].CLK
+i_clk => r_hdb3_minus[1].CLK
+i_clk => r_hdb3_minus[2].CLK
+i_clk => r_hdb3_minus[3].CLK
+i_clk => r_hdb3_minus[4].CLK
+i_clk => r_hdb3_plus[0].CLK
+i_clk => r_hdb3_plus[1].CLK
+i_clk => r_hdb3_plus[2].CLK
+i_clk => r_hdb3_plus[3].CLK
+i_clk => r_hdb3_plus[4].CLK
+i_clk => temp1_code[0].CLK
+i_clk => temp1_code[1].CLK
+i_clk => temp0_code[0].CLK
+i_clk => temp0_code[1].CLK
+i_hdb3_code[0] => temp0_code[0].DATAIN
+i_hdb3_code[1] => temp0_code[1].DATAIN
+o_data <= o_data.DB_MAX_OUTPUT_PORT_TYPE
+
+

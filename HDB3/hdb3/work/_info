@@ -1,0 +1,349 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2019.2/examples
+T_opt
+!s110 1625578101
+VeOVc0Gfa]58Pk@g4^MK4n2
+04 14 4 work hdb3_decode_tb fast 0
+=1-80fa5b50b605-60e45a75-73-1de0
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1625639871
+V_`_1cOQ3mLNKjk2Y=Wb?K3
+04 8 4 work hdb3_d2t fast 0
+=1-80fa5b50b605-60e54bbe-202-37cc
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1625577675
+VLjDm2EecHD26`fI:fA<b`2
+04 12 4 work hdb3_code_tb fast 0
+=1-80fa5b50b605-60e458cb-b-31bc
+R1
+R2
+n@_opt2
+R3
+R0
+vhdb3
+Z4 !s110 1624948158
+!i10b 1
+!s100 ;RGWz^dbf;4j5A?A?VjKe0
+!s11b 6@j]59z`?g7YG>kbZn;Tf2
+IYTle:eX:8k1?KTY<ekjE_3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/01workplace/Modelsim/hdb3
+w1624928873
+8D:/01workplace/Modelsim/hdb3/hdb3.v
+FD:/01workplace/Modelsim/hdb3/hdb3.v
+L0 1
+Z7 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z8 !s108 1624948158.000000
+!s107 D:/01workplace/Modelsim/hdb3/hdb3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vhdb3_code
+Z10 !s110 1624948157
+!i10b 1
+!s100 0?QoUB:I`9S4^FAje^@e41
+!s11b [Z0JbCofBkVzSo8[LZkM`0
+I@=5G?E1I18K@UJlX19PWm1
+R5
+R6
+w1624933079
+8D:\01workplace\Modelsim\hdb3\hdb3_code.v
+FD:\01workplace\Modelsim\hdb3\hdb3_code.v
+L0 2
+R7
+r1
+!s85 0
+31
+Z11 !s108 1624948157.000000
+!s107 D:\01workplace\Modelsim\hdb3\hdb3_code.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\01workplace\Modelsim\hdb3\hdb3_code.v|
+!i113 0
+R9
+R2
+vhdb3_code_r
+R4
+!i10b 1
+!s100 jM@A1X7`EdYZ:W3BFhEz^2
+!s11b N1W:Ho`IjgTYjoOzM36ik2
+Ij1ZQXgCTPiYGU>:IK[OHV3
+R5
+R6
+w1624870976
+8D:/01workplace/Modelsim/hdb3/hdb3_code_r.v
+FD:/01workplace/Modelsim/hdb3/hdb3_code_r.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_code_r.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_code_r.v|
+!i113 0
+R9
+R2
+vhdb3_code_r_tb
+R4
+!i10b 1
+!s100 bG_S@2z5oo[`nJaTDd8Cz1
+!s11b d84;b_1Dn0T65XY=;1E@J0
+I2f6`0EYUKYU>2H9PK7LTR1
+R5
+R6
+w1624871031
+8D:/01workplace/Modelsim/hdb3/hdb3_code_r_tb.v
+FD:/01workplace/Modelsim/hdb3/hdb3_code_r_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_code_r_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_code_r_tb.v|
+!i113 0
+R9
+R2
+vhdb3_code_tb
+R10
+!i10b 1
+!s100 K6ojjP8Y9jj<Saz^4ij2I3
+!s11b oz7HSYLUm1lI9Ed9c1IVm1
+IS?hQEblm3oKO0^8AWDTlV3
+R5
+R6
+w1624503811
+8D:/01workplace/Modelsim/hdb3/hdb3_code_tb.v
+FD:/01workplace/Modelsim/hdb3/hdb3_code_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_code_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_code_tb.v|
+!i113 0
+R9
+R2
+vhdb3_d2t
+R10
+!i10b 1
+!s100 8>N=M9WUY1@<3F41`K<j92
+!s11b D1n4QAYQoSUzn[:m?QQL]1
+I:CSnh;UfB>ZhA^6FfL`A91
+R5
+R6
+w1624498449
+8D:/01workplace/Modelsim/hdb3/hdb3_d2t.v
+FD:/01workplace/Modelsim/hdb3/hdb3_d2t.v
+L0 13
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_d2t.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_d2t.v|
+!i113 0
+R9
+R2
+vhdb3_decode
+R4
+!i10b 1
+!s100 @7QXHVzaaCPEk]gJz0A9l0
+!s11b ZT]K3hCJVHTBzT8]I=W7m3
+IR7J:gMb=P69_RjJaolhl_1
+R5
+R6
+w1624588029
+8D:/01workplace/Modelsim/hdb3/hdb3_decode.v
+FD:/01workplace/Modelsim/hdb3/hdb3_decode.v
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_decode.v|
+!i113 0
+R9
+R2
+vhdb3_decode_tb
+R4
+!i10b 1
+!s100 ^@d_^FQ2^bK5HiaEP0;H>1
+!s11b a@0]XMkgA:RQBPT2M8Kf41
+IdGeSZIK[n:X:06]iljEe;2
+R5
+R6
+w1624511872
+8D:/01workplace/Modelsim/hdb3/hdb3_decode_tb.v
+FD:/01workplace/Modelsim/hdb3/hdb3_decode_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_decode_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_decode_tb.v|
+!i113 0
+R9
+R2
+vhdb3_plug_b
+R10
+!i10b 1
+!s100 5>@@<:8IN@hGD7ZakC@BV1
+!s11b 4PD?^Vf>7lg_6<CQP0a9g1
+ILA:gafjlJBS98XR@WnWCn0
+R5
+R6
+w1624498185
+8D:/01workplace/Modelsim/hdb3/hdb3_plug_b.v
+FD:/01workplace/Modelsim/hdb3/hdb3_plug_b.v
+L0 9
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_plug_b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_plug_b.v|
+!i113 0
+R9
+R2
+vhdb3_plug_v
+R10
+!i10b 1
+!s100 8o2Fi3XM_7UWCOOLnn8M80
+!s11b 9MOIa@PYnbY=Kf_gN_7]C0
+I86N^hXh?_h1DeGLZgmR9k2
+R5
+R6
+w1624412420
+8D:/01workplace/Modelsim/hdb3/hdb3_plug_v.v
+FD:/01workplace/Modelsim/hdb3/hdb3_plug_v.v
+L0 10
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_plug_v.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_plug_v.v|
+!i113 0
+R9
+R2
+vhdb3_plug_v_tb
+R4
+!i10b 1
+!s100 UaE2;MKRKS`_7mJW?9Sim2
+!s11b ObNbBD6;ZoTeM^I9ijCTQ2
+ISFB34<BXnAE93?bKnJN<`2
+R5
+R6
+w1624869192
+8D:/01workplace/Modelsim/hdb3/hdb3_plug_v_tb.v
+FD:/01workplace/Modelsim/hdb3/hdb3_plug_v_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_plug_v_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_plug_v_tb.v|
+!i113 0
+R9
+R2
+vhdb3_tb
+R4
+!i10b 1
+!s100 WfPHCe0^U_Y508Uefk3jl1
+!s11b 74DRUC6dc=c?[dhXQnmfU3
+I[h0Q7<AiH:jRkD?JY6RA70
+R5
+R6
+w1624929077
+8D:/01workplace/Modelsim/hdb3/hdb3_tb.v
+FD:/01workplace/Modelsim/hdb3/hdb3_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/hdb3_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/hdb3_tb.v|
+!i113 0
+R9
+R2
+vpluse
+R4
+!i10b 1
+!s100 hdbTz1S4=oaf_Ye8f1gUH1
+!s11b ;iNF6ROX;ASmQbPm:AlOi1
+I;J>l7oV=38:WD5IFdgm8>2
+R5
+R6
+w1624869531
+8D:/01workplace/Modelsim/hdb3/pluse.v
+FD:/01workplace/Modelsim/hdb3/pluse.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/pluse.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/pluse.v|
+!i113 0
+R9
+R2
+vpluse_tb
+R4
+!i10b 1
+!s100 ?@7eh7E7W]eSckjXk4Cn21
+!s11b kFGlO[^oMSj_gj6PT;``i2
+I@e42`c8c8eE8L4i7bNK=03
+R5
+R6
+w1624502603
+8D:/01workplace/Modelsim/hdb3/pluse_tb.v
+FD:/01workplace/Modelsim/hdb3/pluse_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/01workplace/Modelsim/hdb3/pluse_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/01workplace/Modelsim/hdb3/pluse_tb.v|
+!i113 0
+R9
+R2

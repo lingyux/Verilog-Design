@@ -1,0 +1,28 @@
+
+State Machine - |digital_clock_top|control:control|mode_chose:mode_chose|key_filter:key_filter_m|state_c
+Name state_c.FILTER1 state_c.DOWN state_c.FILTER0 state_c.IDLE 
+state_c.IDLE 0 0 0 0 
+state_c.FILTER0 0 0 1 1 
+state_c.DOWN 0 1 0 1 
+state_c.FILTER1 1 0 0 1 
+
+State Machine - |digital_clock_top|control:control|keyboard_ctrl:keyboard_ctrl|key_filter:key_filter_e|state_c
+Name state_c.FILTER1 state_c.DOWN state_c.FILTER0 state_c.IDLE 
+state_c.IDLE 0 0 0 0 
+state_c.FILTER0 0 0 1 1 
+state_c.DOWN 0 1 0 1 
+state_c.FILTER1 1 0 0 1 
+
+State Machine - |digital_clock_top|control:control|keyboard_ctrl:keyboard_ctrl|key_filter:key_filter_n|state_c
+Name state_c.FILTER1 state_c.DOWN state_c.FILTER0 state_c.IDLE 
+state_c.IDLE 0 0 0 0 
+state_c.FILTER0 0 0 1 1 
+state_c.DOWN 0 1 0 1 
+state_c.FILTER1 1 0 0 1 
+
+State Machine - |digital_clock_top|control:control|keyboard_ctrl:keyboard_ctrl|key_filter:key_filter_p|state_c
+Name state_c.FILTER1 state_c.DOWN state_c.FILTER0 state_c.IDLE 
+state_c.IDLE 0 0 0 0 
+state_c.FILTER0 0 0 1 1 
+state_c.DOWN 0 1 0 1 
+state_c.FILTER1 1 0 0 1 

@@ -1,0 +1,31 @@
+module hdb3(
+	input i_clk,
+	input i_rst_n,
+	output hdb3_decode
+);
+
+	wire data;
+	wire [1:0] hdb3_code;
+
+
+	pluse pluse1(
+		.i_clk(i_clk),    // Clock
+		.i_rst_n(i_rst_n),
+		.o_pluse(data)
+	);
+
+	hdb3_code hdb3_code(
+		 .i_rst_n(i_rst_n),
+		 .i_clk(i_clk),
+		 .i_data(data),
+		 .o_hdb3_code(hdb3_code)
+	);
+
+	hdb3_decode hdb3_decode1(
+		.i_rst_n(i_rst_n),
+		.i_clk(i_clk),
+		.i_hdb3_code(hdb3_code),
+		.o_data(hdb3_decode)
+	);
+
+endmodule
