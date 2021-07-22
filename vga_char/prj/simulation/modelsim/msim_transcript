@@ -1,0 +1,94 @@
+# Reading C:/altera/13.0sp1/modelsim_ae/tcl/vsim/pref.tcl 
+# do my_vga_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/rtl {D:/01workplace/Quartus/class28_vga_char/rtl/my_vga.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module my_vga
+# 
+# Top level modules:
+# 	my_vga
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/rtl {D:/01workplace/Quartus/class28_vga_char/rtl/vga_pic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_pic
+# 
+# Top level modules:
+# 	vga_pic
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/rtl {D:/01workplace/Quartus/class28_vga_char/rtl/vga_ctrl.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_ctrl
+# 
+# Top level modules:
+# 	vga_ctrl
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz {D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz/pll_25Mhz.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_25Mhz
+# 
+# Top level modules:
+# 	pll_25Mhz
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/prj/db {D:/01workplace/Quartus/class28_vga_char/prj/db/pll_25mhz_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_25Mhz_altpll
+# 
+# Top level modules:
+# 	pll_25Mhz_altpll
+# 
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/prj/../testbench {D:/01workplace/Quartus/class28_vga_char/prj/../testbench/tb_my_vga.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_my_vga
+# 
+# Top level modules:
+# 	tb_my_vga
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_my_vga
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_my_vga 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.tb_my_vga
+# Loading work.my_vga
+# Loading work.vga_pic
+# Loading work.pll_25Mhz
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.vga_ctrl
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_my_vga.my_vga_inst.pll_25Mhz_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 80000  Instance: tb_my_vga.my_vga_inst.pll_25Mhz_inst.altpll_component.cycloneiii_pll.pll3
+add wave -position insertpoint sim:/tb_my_vga/my_vga_inst/vga_pic_inst/*
+restart
+run
+#  Note : Cyclone IV E PLL was reset
+# Time: 0  Instance: tb_my_vga.my_vga_inst.pll_25Mhz_inst.altpll_component.cycloneiii_pll.pll3
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 80000  Instance: tb_my_vga.my_vga_inst.pll_25Mhz_inst.altpll_component.cycloneiii_pll.pll3
+run
+# Break key hit 
+# Simulation stop requested.

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="my_vga">
+		<CBX_INST_ENTRY INSTANCE_NAME="|my_vga|pll_25Mhz:pll_25Mhz_inst|altpll:altpll_component" CBX_FILE_NAME="pll_25Mhz_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,127 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\01workplace\Quartus\class28_vga_char\prj\simulation\modelsim
+vmy_vga
+I@lDRQRMNNiMLi`XoED6]20
+Voab3P?fo@cifUIzbn]iRT0
+Z1 dD:\01workplace\Quartus\class28_vga_char\prj\simulation\modelsim
+w1626689740
+8D:/01workplace/Quartus/class28_vga_char/rtl/my_vga.v
+FD:/01workplace/Quartus/class28_vga_char/rtl/my_vga.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/rtl -O0
+!i10b 1
+!s100 MdJ:`Si:aEHe=Td<BAJ8U3
+!s85 0
+!s108 1626768400.537000
+!s107 D:/01workplace/Quartus/class28_vga_char/rtl/my_vga.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class28_vga_char/rtl|D:/01workplace/Quartus/class28_vga_char/rtl/my_vga.v|
+!s101 -O0
+vpll_25Mhz
+I3LDTdX<^^ZSc@9<c<WX8j0
+VVLgHkO`UKZz>imaZngjf13
+R1
+w1626679415
+8D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz/pll_25Mhz.v
+FD:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz/pll_25Mhz.v
+L0 39
+R2
+r1
+31
+R3
+npll_25@mhz
+!i10b 1
+!s100 ?jnI<1Z8k0DdoU_FbLk802
+!s85 0
+!s108 1626768401.150000
+!s107 D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz/pll_25Mhz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz|D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz/pll_25Mhz.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/prj/ip/pll_25Mhz -O0
+vpll_25Mhz_altpll
+IYJ?VgSTMC29:o4EY_QZz33
+VBlM4QH5kd5iXR3c[k`eZh0
+R1
+w1626689726
+8D:/01workplace/Quartus/class28_vga_char/prj/db/pll_25mhz_altpll.v
+FD:/01workplace/Quartus/class28_vga_char/prj/db/pll_25mhz_altpll.v
+L0 30
+R2
+r1
+31
+R3
+npll_25@mhz_altpll
+!i10b 1
+!s100 dFd6bL^DJ`L5cEoAJfa:=3
+!s85 0
+!s108 1626768401.362000
+!s107 D:/01workplace/Quartus/class28_vga_char/prj/db/pll_25mhz_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class28_vga_char/prj/db|D:/01workplace/Quartus/class28_vga_char/prj/db/pll_25mhz_altpll.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/prj/db -O0
+vtb_my_vga
+!i10b 1
+!s100 LcAYHgE=5iK6P2HNXUk<21
+IIiJ=aTJMVYzgFPgCcV3AY1
+VRH=?gfOYOJOI0=3QYbdN<2
+R1
+w1626762051
+8D:/01workplace/Quartus/class28_vga_char/prj/../testbench/tb_my_vga.v
+FD:/01workplace/Quartus/class28_vga_char/prj/../testbench/tb_my_vga.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1626768401.544000
+!s107 D:/01workplace/Quartus/class28_vga_char/prj/../testbench/tb_my_vga.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class28_vga_char/prj/../testbench|D:/01workplace/Quartus/class28_vga_char/prj/../testbench/tb_my_vga.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class28_vga_char/prj/../testbench -O0
+vvga_ctrl
+I4:90acY1J8ZoaW@4d3J<10
+V<6<d^1idzl@67``Gi[iG:1
+R1
+w1626762681
+8D:/01workplace/Quartus/class28_vga_char/rtl/vga_ctrl.v
+FD:/01workplace/Quartus/class28_vga_char/rtl/vga_ctrl.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Mn_oDK5AjI?^Xgmb;l6N<3
+!s85 0
+!s108 1626768400.900000
+!s107 D:/01workplace/Quartus/class28_vga_char/rtl/vga_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class28_vga_char/rtl|D:/01workplace/Quartus/class28_vga_char/rtl/vga_ctrl.v|
+!s101 -O0
+vvga_pic
+IXY4m@l6Gm;4cF5i>R4]8z2
+VII=0V^al2gnzC:iz08eH80
+R1
+w1626768049
+8D:/01workplace/Quartus/class28_vga_char/rtl/vga_pic.v
+FD:/01workplace/Quartus/class28_vga_char/rtl/vga_pic.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 HMjXLZG;4I^HDo1g7Y00l1
+!s85 0
+!s108 1626768400.791000
+!s107 D:/01workplace/Quartus/class28_vga_char/rtl/vga_pic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class28_vga_char/rtl|D:/01workplace/Quartus/class28_vga_char/rtl/vga_pic.v|
+!s101 -O0
