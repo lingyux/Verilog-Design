@@ -1,0 +1,66 @@
+# Reading C:/altera/13.0sp1/modelsim_ae/tcl/vsim/pref.tcl 
+# do Rs232_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class29_Rs232/rtl {D:/01workplace/Quartus/class29_Rs232/rtl/Rs232.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Rs232
+# 
+# Top level modules:
+# 	Rs232
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class29_Rs232/rtl {D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_tx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Rs232_tx
+# 
+# Top level modules:
+# 	Rs232_tx
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class29_Rs232/rtl {D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_rx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Rs232_rx
+# 
+# Top level modules:
+# 	Rs232_rx
+# 
+# vlog -vlog01compat -work work +incdir+D:/01workplace/Quartus/class29_Rs232/prj/../testbench {D:/01workplace/Quartus/class29_Rs232/prj/../testbench/Rs232_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Rs232_tb
+# 
+# Top level modules:
+# 	Rs232_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Rs232_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Rs232_tb 
+# //  ModelSim ALTERA 10.1d Nov  2 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.Rs232_tb
+# Loading work.Rs232
+# Loading work.Rs232_tx
+# Loading work.Rs232_rx
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+restart
+run -all
+restart
+add wave -position insertpoint sim:/Rs232_tb/Rs232_inst/Rs232_tx_inst/*
+restart
+run -all

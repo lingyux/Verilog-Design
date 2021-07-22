@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\01workplace\Quartus\class29_Rs232\prj\simulation\modelsim
+vRs232
+IK@FZ23UC?anADI>D?V::Z3
+VUiYXbN;:h4kG?<>PW5cQ=2
+Z1 dD:\01workplace\Quartus\class29_Rs232\prj\simulation\modelsim
+w1626861392
+8D:/01workplace/Quartus/class29_Rs232/rtl/Rs232.v
+FD:/01workplace/Quartus/class29_Rs232/rtl/Rs232.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@rs232
+Z4 !s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class29_Rs232/rtl -O0
+!i10b 1
+!s100 3kY@[VFD_f[W3cJ2=nDHS1
+!s85 0
+!s108 1626865398.429000
+!s107 D:/01workplace/Quartus/class29_Rs232/rtl/Rs232.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class29_Rs232/rtl|D:/01workplace/Quartus/class29_Rs232/rtl/Rs232.v|
+!s101 -O0
+vRs232_rx
+IaJmHXbaKkabcUdK3e>ECZ0
+V@kT?<d?h;9=]LM;b>293a3
+R1
+w1626852765
+8D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_rx.v
+FD:/01workplace/Quartus/class29_Rs232/rtl/Rs232_rx.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@rs232_rx
+!i10b 1
+!s100 ;oWzCFiT[Ocl@zjmDlmcM2
+!s85 0
+!s108 1626865398.809000
+!s107 D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class29_Rs232/rtl|D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_rx.v|
+!s101 -O0
+vRs232_tb
+!i10b 1
+!s100 EdoL3`4EEeV^A[3X2O`hG1
+I?7>56PRehbLmW`CFoc5W^0
+V;@W^OE@5FDGF9jcnNbEo_2
+R1
+w1626861844
+8D:/01workplace/Quartus/class29_Rs232/prj/../testbench/Rs232_tb.v
+FD:/01workplace/Quartus/class29_Rs232/prj/../testbench/Rs232_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1626865398.918000
+!s107 D:/01workplace/Quartus/class29_Rs232/prj/../testbench/Rs232_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class29_Rs232/prj/../testbench|D:/01workplace/Quartus/class29_Rs232/prj/../testbench/Rs232_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class29_Rs232/prj/../testbench -O0
+n@rs232_tb
+vRs232_tx
+IdB]L@lS8l9R0YI0mY]JMz2
+VCIUUaLI__PMagao:EJbOU1
+R1
+w1626858862
+8D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_tx.v
+FD:/01workplace/Quartus/class29_Rs232/rtl/Rs232_tx.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@rs232_tx
+!i10b 1
+!s100 ;jjM[iFJ_?;Pkb@Jihk]A2
+!s85 0
+!s108 1626865398.698000
+!s107 D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class29_Rs232/rtl|D:/01workplace/Quartus/class29_Rs232/rtl/Rs232_tx.v|
+!s101 -O0
