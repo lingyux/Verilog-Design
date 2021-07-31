@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'sys_clk'
+Slack : -3.808
+TNS   : -318.049
+
+Type  : Slow 1200mV 85C Model Setup 'HEX8:HEX8_inst|clk_1k'
+Slack : -0.197
+TNS   : -0.579
+
+Type  : Slow 1200mV 85C Model Hold 'sys_clk'
+Slack : 0.070
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'HEX8:HEX8_inst|clk_1k'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : -3.000
+TNS   : -181.440
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'HEX8:HEX8_inst|clk_1k'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 0C Model Setup 'sys_clk'
+Slack : -3.441
+TNS   : -290.415
+
+Type  : Slow 1200mV 0C Model Setup 'HEX8:HEX8_inst|clk_1k'
+Slack : -0.095
+TNS   : -0.250
+
+Type  : Slow 1200mV 0C Model Hold 'sys_clk'
+Slack : 0.097
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'HEX8:HEX8_inst|clk_1k'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : -3.000
+TNS   : -181.440
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'HEX8:HEX8_inst|clk_1k'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Fast 1200mV 0C Model Setup 'sys_clk'
+Slack : -1.042
+TNS   : -72.401
+
+Type  : Fast 1200mV 0C Model Setup 'HEX8:HEX8_inst|clk_1k'
+Slack : 0.491
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sys_clk'
+Slack : -0.135
+TNS   : -0.135
+
+Type  : Fast 1200mV 0C Model Hold 'HEX8:HEX8_inst|clk_1k'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : -3.000
+TNS   : -130.888
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'HEX8:HEX8_inst|clk_1k'
+Slack : -1.000
+TNS   : -6.000
+
+------------------------------------------------------------

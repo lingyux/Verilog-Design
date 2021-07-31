@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\01workplace\Quartus\class34_inf_rec\prj\simulation\modelsim
+vled_ctrl
+!i10b 1
+!s100 =`3^FG4WMe@j;_60oBkPP3
+IJ2fAkX8f?Se4B5oP]^:z;0
+V5;NYQfQYH`L?Ddom0Y`YL0
+Z1 dD:\01workplace\Quartus\class34_inf_rec\prj\simulation\modelsim
+w1627714679
+8D:/01workplace/Quartus/class34_inf_rec/prj/../rtl/led_ctrl.v
+FD:/01workplace/Quartus/class34_inf_rec/prj/../rtl/led_ctrl.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1627714720.830000
+!s107 D:/01workplace/Quartus/class34_inf_rec/prj/../rtl/led_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class34_inf_rec/prj/../rtl|D:/01workplace/Quartus/class34_inf_rec/prj/../rtl/led_ctrl.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class34_inf_rec/prj/../rtl -O0
+vtb_led_ctrl
+I`4U25ZLC1CO`aUZW@6InN0
+VjAOHl2@JcBH[72VhMS9:b3
+R1
+w1627714184
+8D:/01workplace/Quartus/class34_inf_rec/prj/../testbench/tb_led_ctrl.v
+FD:/01workplace/Quartus/class34_inf_rec/prj/../testbench/tb_led_ctrl.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 ;fU`4VmoOHCkKW7GMWLW;2
+!s85 0
+!s108 1627714720.640000
+!s107 D:/01workplace/Quartus/class34_inf_rec/prj/../testbench/tb_led_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/01workplace/Quartus/class34_inf_rec/prj/../testbench|D:/01workplace/Quartus/class34_inf_rec/prj/../testbench/tb_led_ctrl.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/01workplace/Quartus/class34_inf_rec/prj/../testbench -O0

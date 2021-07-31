@@ -1,0 +1,8 @@
+
+State Machine - |top_inf_rec|inf_rec:inf_rec_inst|state
+Name state.REPEAT state.DATA state.ARBIT state.TIME_9MS state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.TIME_9MS 0 0 0 1 1 
+state.ARBIT 0 0 1 0 1 
+state.DATA 0 1 0 0 1 
+state.REPEAT 1 0 0 0 1 
