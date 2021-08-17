@@ -107,4 +107,5 @@ NEC协议采用的是PPM(脉冲位置调试)进行编码. 当我们按下一次�
 ![tmds编码](https://i.loli.net/2021/08/17/sbLnx87IpUfTkG1.png)
 
 ### 参考文档
-
+[DVI 1.0.pdf](https://github.com/lingyux/Verilog-Design/blob/main/hdmi/doc/DVI%20V1.0.pdf)
+[HDMI Specification 13a.pdf](https://github.com/lingyux/Verilog-Design/blob/main/hdmi/doc/HDMI%20Specification%2013a.pdf)
