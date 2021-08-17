@@ -77,3 +77,34 @@ NEC协议采用的是PPM(脉冲位置调试)进行编码. 当我们按下一次�
 ![引导码接收的波形](https://i.loli.net/2021/07/31/AfIycdl9B1eJV7o.png)
 ![逻辑1和逻辑0接收到的波形](https://i.loli.net/2021/07/31/mYO8Ic5yWsZAJuK.png)
 ![重复码接收到的波形](https://i.loli.net/2021/07/31/Dt2JakZceF4fyqb.png)
+
+## hdmi驱动
+### 开发板
+正点原子的新起点开发板, 时钟为50MHz. 仿真平台采用ModelSim. 
+
+### 实现目标
+- 在hdmi显示屏上实现彩带显示
+
+### 输入信号
+- clk	: 时钟信号
+- rst_n	: 复位信号
+
+### 输出信号
+输出的信号为四对差分信号，和两个I2C控制信号
+- ddc_scl		I2C串行时钟,
+- ddc_sda		I2C串行数据,
+- red_p			红色分量的差分传输信号,
+- red_n			,
+- green_p		绿色分量的差分传输信号,
+- green_n		,
+- blue_p		蓝色分量的差分传输信号,
+- blue_n		,
+- clk_p			差分时钟信号,
+- clk_n			 	
+
+### 传输编码方式
+- hdmi采用TMDS编码方式进行传输，编码原则如下
+![tmds编码](https://i.loli.net/2021/08/17/sbLnx87IpUfTkG1.png)
+
+### 参考文档
+

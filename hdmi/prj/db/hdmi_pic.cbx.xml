@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="hdmi_pic">
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|clk_gen:clk_gen_inst|altpll:altpll_component" CBX_FILE_NAME="clk_gen_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_b|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_clk|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_g|ddio_out:ddio_out_inst2|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_r|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_b|ddio_out:ddio_out_inst2|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_clk|ddio_out:ddio_out_inst2|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_g|ddio_out:ddio_out_inst1|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|hdmi_colorbar|hdmi_ctrl:hdmi_ctrl_inst|par_to_ser:par_to_ser_r|ddio_out:ddio_out_inst2|altddio_out:ALTDDIO_OUT_component" CBX_FILE_NAME="ddio_out_p9j.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
