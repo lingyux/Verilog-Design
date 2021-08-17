@@ -109,3 +109,35 @@ NEC协议采用的是PPM(脉冲位置调试)进行编码. 当我们按下一次�
 ### 参考文档
 [DVI 1.0.pdf](https://github.com/lingyux/Verilog-Design/blob/main/hdmi/doc/DVI%20V1.0.pdf)
 [HDMI Specification 13a.pdf](https://github.com/lingyux/Verilog-Design/blob/main/hdmi/doc/HDMI%20Specification%2013a.pdf)
+
+## tft液晶驱动
+### 开发板
+正点原子的新起点开发板, 时钟为50MHz. 仿真平台采用ModelSim. 
+
+### 实现目标
+- 在tft液晶显示屏上实现彩带显示等宽10色彩条
+
+### 输入信号
+- clk	: 时钟信号
+- sys_rst_n	: 复位信号
+
+### 输出信号
+- hsync	: 行同步信号
+- vsync	: 场同步信号
+- tft_rgb : 显示的数据
+- tft_de  : 图像使能信号
+- tft_clk  : 时钟信号
+- tft_bl   : 背光使能信号
+
+### 液晶显示原理
+1. HV同步模式
+HV同步模式下，图像的实现需要行场同步信号来确定显示的时序。此时RGB接口的是TFT-LCD时序和VGA时序类似。
+![TFT液晶显示HV同步模式行时序图](https://i.loli.net/2021/08/17/SALRcB96MYbTVwf.png)
+![TFT液晶显示HV同步模式场时序图](https://i.loli.net/2021/08/17/tVaoiH39xr4vlU6.png)
+![TFT液晶显示HV同步模式时序图](https://i.loli.net/2021/08/17/YyTI8lChR4q7e2i.png)
+2. DE同步模式
+DE同步模式下，图像的显示只需要接收数据使能信号来确定显示时序，不需要行场同步信号。
+![DE同步模式TFT图像显示时序图](https://i.loli.net/2021/08/17/67yLOxaAkFlSDQ1.png)
+3. 常见的分辨率的显示屏时序参数
+![TFT-LCD显示屏的时序参数](https://i.loli.net/2021/08/17/9vjLC7WFanh8NGI.png)
+
